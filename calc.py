@@ -29,9 +29,7 @@ while True:
             print("Invalid input. Please enter numeric values.")
         except ZeroDivisionError:
             print("Error: Area cannot be zero. Please enter a valid area.")
-        except ValueError:
-         print("Invalid input. Please enter numeric values.")
-
+       
         input("\nPress Enter to return to the main menu...")
     elif choice == '2':
         print("\n---Fluid Continuity (Area & Velocity)---\n")   
